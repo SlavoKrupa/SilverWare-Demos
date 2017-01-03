@@ -1,4 +1,4 @@
-package io.silverware.demos.quickstarts.cdi;
+package io.silverware.demos.quickstarts.openshift.cluster.api;
 
 import io.silverware.microservices.annotations.Microservice;
 import io.silverware.microservices.annotations.MicroserviceReference;
@@ -14,6 +14,7 @@ import javax.ws.rs.core.Response;
 
 /**
  * This service expose health status of SilverWare
+ *
  * @author Slavomír Krupa (slavomir.krupa@gmail.com)
  */
 @Microservice

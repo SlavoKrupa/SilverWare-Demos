@@ -27,9 +27,9 @@
    </organization>
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      
+
       <java.level>1.8</java.level>
-      
+
       <version.apache.camel>2.16.1</version.apache.camel>
       <version.apache.deltaspike>1.5.2</version.apache.deltaspike>
 
@@ -57,6 +57,7 @@
       <module>vertx-groovy-helloworld</module>
       <module>vertx-helloworld</module>
       <module>vertx-xml-helloworld</module>
+      <module>openshift-base</module>
    </modules>
    <dependencyManagement>
       <dependencies>
@@ -71,17 +72,17 @@
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-stream</artifactId>
             <version>${version.apache.camel}</version>
-         </dependency>      
+         </dependency>
          <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-cdi</artifactId>
             <version>${version.apache.camel}</version>
-         </dependency>      
+         </dependency>
          <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-jetty</artifactId>
             <version>${version.apache.camel}</version>
-         </dependency>      
+         </dependency>
          <dependency>
             <groupId>org.apache.deltaspike.core</groupId>
             <artifactId>deltaspike-core-api</artifactId>
